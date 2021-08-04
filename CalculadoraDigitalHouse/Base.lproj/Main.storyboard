@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CalculadoraDigitalHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28e-XO-Kd7">
+                                <rect key="frame" x="62" y="597" width="143" height="66"/>
+                                <state key="normal" backgroundImage="0"/>
+                                <connections>
+                                    <action selector="BotaoZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="her-Gb-9KD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OrQ-1x-VmW">
+                                <rect key="frame" x="213" y="597" width="66" height="66"/>
+                                <state key="normal" backgroundImage=","/>
+                                <connections>
+                                    <action selector="BotaoVirgula:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qsN-EZ-yFB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFZ-kb-Act">
+                                <rect key="frame" x="62" y="523" width="66" height="66"/>
+                                <state key="normal" backgroundImage="1"/>
+                                <connections>
+                                    <action selector="BotaoUm:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QLn-pb-4FL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2s-JZ-FGk">
+                                <rect key="frame" x="62" y="449" width="66" height="66"/>
+                                <state key="normal" backgroundImage="4"/>
+                                <connections>
+                                    <action selector="BotaoQuatro:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AhK-um-afa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rOi-j1-oOS">
+                                <rect key="frame" x="136" y="449" width="66" height="66"/>
+                                <state key="normal" backgroundImage="5"/>
+                                <connections>
+                                    <action selector="BotaoQuinta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XiB-Ib-m4P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vB2-iS-5zV">
+                                <rect key="frame" x="213" y="449" width="66" height="66"/>
+                                <state key="normal" backgroundImage="6"/>
+                                <connections>
+                                    <action selector="BotaoSeis:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LdE-lD-iZ9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqU-Ln-bDw">
+                                <rect key="frame" x="62" y="375" width="66" height="66"/>
+                                <state key="normal" backgroundImage="7"/>
+                                <connections>
+                                    <action selector="BotaoSete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oJ6-H9-ICF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENX-kq-yGa">
+                                <rect key="frame" x="136" y="375" width="66" height="66"/>
+                                <state key="normal" backgroundImage="8"/>
+                                <connections>
+                                    <action selector="BotaoOito:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n3E-NU-IRq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35e-t2-e3D">
+                                <rect key="frame" x="213" y="375" width="66" height="66"/>
+                                <state key="normal" backgroundImage="9"/>
+                                <connections>
+                                    <action selector="BotaoNove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="js6-tI-ptr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqv-uJ-ftq">
+                                <rect key="frame" x="136" y="523" width="66" height="66"/>
+                                <state key="normal" backgroundImage="2"/>
+                                <connections>
+                                    <action selector="BotaoDois:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rEz-Bd-bSb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZU-pM-0RH">
+                                <rect key="frame" x="213" y="523" width="66" height="66"/>
+                                <state key="normal" backgroundImage="3"/>
+                                <connections>
+                                    <action selector="BotaoTres:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yL7-or-oql"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkT-81-XRe">
+                                <rect key="frame" x="287" y="597" width="66" height="66"/>
+                                <state key="normal" backgroundImage="="/>
+                                <connections>
+                                    <action selector="BotaoIgual:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mN9-CE-Z7r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xzx-4w-2uA">
+                                <rect key="frame" x="287" y="449" width="66" height="66"/>
+                                <state key="normal" backgroundImage="+"/>
+                                <connections>
+                                    <action selector="BotaoSoma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4cM-8j-gix"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMu-uf-9F7">
+                                <rect key="frame" x="287" y="523" width="66" height="66"/>
+                                <state key="normal" backgroundImage="-"/>
+                                <connections>
+                                    <action selector="BotaoSubtracao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="09D-ZP-sxc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQZ-01-HGY">
+                                <rect key="frame" x="287" y="375" width="66" height="66"/>
+                                <state key="normal" backgroundImage="X"/>
+                                <connections>
+                                    <action selector="BotaoMultiplicacao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jcH-La-cZ2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4wn-cZ-A9A">
+                                <rect key="frame" x="287" y="301" width="66" height="66"/>
+                                <state key="normal" backgroundImage="÷"/>
+                                <connections>
+                                    <action selector="BotaoDivisao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3X3-cF-vyM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBP-YR-tp4">
+                                <rect key="frame" x="213" y="301" width="66" height="66"/>
+                                <state key="normal" backgroundImage="%"/>
+                                <connections>
+                                    <action selector="BotaoPorcentagem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L9s-eF-bmW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6H-EV-kag">
+                                <rect key="frame" x="136" y="301" width="66" height="66"/>
+                                <state key="normal" backgroundImage="-E+"/>
+                                <connections>
+                                    <action selector="BotaoMaisMenos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WQs-sm-5N4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fb2-CD-tkA">
+                                <rect key="frame" x="62" y="301" width="66" height="66"/>
+                                <state key="normal" backgroundImage="C"/>
+                                <connections>
+                                    <action selector="BotaoLimpar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bX6-X8-mfv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PoY-yi-RbN">
+                                <rect key="frame" x="62" y="238" width="291" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PoY-yi-RbN" firstAttribute="trailing" secondItem="4wn-cZ-A9A" secondAttribute="trailing" id="0j3-dS-ESO"/>
+                            <constraint firstItem="gZU-pM-0RH" firstAttribute="top" secondItem="IMu-uf-9F7" secondAttribute="top" id="29B-4G-kmU"/>
+                            <constraint firstItem="i6H-EV-kag" firstAttribute="leading" secondItem="Fb2-CD-tkA" secondAttribute="trailing" constant="8" id="4yJ-yi-PbF"/>
+                            <constraint firstItem="vB2-iS-5zV" firstAttribute="leading" secondItem="gZU-pM-0RH" secondAttribute="leading" id="5MK-9R-DyT"/>
+                            <constraint firstItem="e2s-JZ-FGk" firstAttribute="top" secondItem="rOi-j1-oOS" secondAttribute="top" id="5wy-87-b1U"/>
+                            <constraint firstItem="nBP-YR-tp4" firstAttribute="leading" secondItem="i6H-EV-kag" secondAttribute="trailing" constant="11" id="6n4-Dw-pMK"/>
+                            <constraint firstItem="vqU-Ln-bDw" firstAttribute="leading" secondItem="e2s-JZ-FGk" secondAttribute="leading" id="81O-0v-PON"/>
+                            <constraint firstItem="vB2-iS-5zV" firstAttribute="top" secondItem="Xzx-4w-2uA" secondAttribute="top" id="9hS-bv-dEI"/>
+                            <constraint firstItem="OrQ-1x-VmW" firstAttribute="top" secondItem="wkT-81-XRe" secondAttribute="top" id="Aqq-5z-9z6"/>
+                            <constraint firstItem="Xzx-4w-2uA" firstAttribute="leading" secondItem="IMu-uf-9F7" secondAttribute="leading" id="BeL-xa-rPE"/>
+                            <constraint firstItem="e2s-JZ-FGk" firstAttribute="top" secondItem="vqU-Ln-bDw" secondAttribute="bottom" constant="8" id="EUn-o0-BFl"/>
+                            <constraint firstItem="ENX-kq-yGa" firstAttribute="leading" secondItem="rOi-j1-oOS" secondAttribute="leading" id="I9J-Az-opj"/>
+                            <constraint firstItem="rOi-j1-oOS" firstAttribute="leading" secondItem="aqv-uJ-ftq" secondAttribute="leading" id="IuE-oi-NJz"/>
+                            <constraint firstItem="Fb2-CD-tkA" firstAttribute="leading" secondItem="vqU-Ln-bDw" secondAttribute="leading" id="J8g-Xk-7Si"/>
+                            <constraint firstItem="rOi-j1-oOS" firstAttribute="top" secondItem="vB2-iS-5zV" secondAttribute="top" id="KNY-if-oNa"/>
+                            <constraint firstItem="Fb2-CD-tkA" firstAttribute="top" secondItem="i6H-EV-kag" secondAttribute="top" id="L2R-Ng-V0d"/>
+                            <constraint firstItem="nBP-YR-tp4" firstAttribute="top" secondItem="4wn-cZ-A9A" secondAttribute="top" id="MiQ-H2-Swb"/>
+                            <constraint firstItem="Fb2-CD-tkA" firstAttribute="top" secondItem="PoY-yi-RbN" secondAttribute="bottom" constant="20" id="NlG-6e-9mu"/>
+                            <constraint firstItem="cFZ-kb-Act" firstAttribute="top" secondItem="e2s-JZ-FGk" secondAttribute="bottom" constant="8" id="NtW-QL-nCC"/>
+                            <constraint firstItem="e2s-JZ-FGk" firstAttribute="leading" secondItem="cFZ-kb-Act" secondAttribute="leading" id="OEs-4D-3hs"/>
+                            <constraint firstItem="4wn-cZ-A9A" firstAttribute="leading" secondItem="tQZ-01-HGY" secondAttribute="leading" id="OFR-sz-7bc"/>
+                            <constraint firstItem="OrQ-1x-VmW" firstAttribute="leading" secondItem="28e-XO-Kd7" secondAttribute="trailing" constant="8" id="R62-5X-EDl"/>
+                            <constraint firstItem="28e-XO-Kd7" firstAttribute="top" secondItem="cFZ-kb-Act" secondAttribute="bottom" constant="8" id="SYg-b3-YCp"/>
+                            <constraint firstItem="i6H-EV-kag" firstAttribute="leading" secondItem="ENX-kq-yGa" secondAttribute="leading" id="UKR-J0-b23"/>
+                            <constraint firstItem="35e-t2-e3D" firstAttribute="leading" secondItem="vB2-iS-5zV" secondAttribute="leading" id="Wh4-O2-sLI"/>
+                            <constraint firstItem="28e-XO-Kd7" firstAttribute="top" secondItem="OrQ-1x-VmW" secondAttribute="top" id="WvO-z1-e9K"/>
+                            <constraint firstItem="vqU-Ln-bDw" firstAttribute="top" secondItem="Fb2-CD-tkA" secondAttribute="bottom" constant="8" id="Yy6-tT-Tg3"/>
+                            <constraint firstItem="4wn-cZ-A9A" firstAttribute="leading" secondItem="nBP-YR-tp4" secondAttribute="trailing" constant="8" id="ZOU-1p-bGC"/>
+                            <constraint firstItem="nBP-YR-tp4" firstAttribute="leading" secondItem="35e-t2-e3D" secondAttribute="leading" id="ZzN-VB-X5Q"/>
+                            <constraint firstItem="cFZ-kb-Act" firstAttribute="leading" secondItem="28e-XO-Kd7" secondAttribute="leading" id="c0f-1P-ibk"/>
+                            <constraint firstItem="vqU-Ln-bDw" firstAttribute="top" secondItem="ENX-kq-yGa" secondAttribute="top" id="cO7-Kf-Cp5"/>
+                            <constraint firstItem="PoY-yi-RbN" firstAttribute="leading" secondItem="Fb2-CD-tkA" secondAttribute="leading" id="hEE-Ut-E49"/>
+                            <constraint firstItem="aqv-uJ-ftq" firstAttribute="top" secondItem="gZU-pM-0RH" secondAttribute="top" id="hUh-CD-phJ"/>
+                            <constraint firstItem="tQZ-01-HGY" firstAttribute="leading" secondItem="Xzx-4w-2uA" secondAttribute="leading" id="isK-KD-MOB"/>
+                            <constraint firstItem="ENX-kq-yGa" firstAttribute="top" secondItem="35e-t2-e3D" secondAttribute="top" id="lkM-wY-29G"/>
+                            <constraint firstItem="35e-t2-e3D" firstAttribute="top" secondItem="tQZ-01-HGY" secondAttribute="top" id="lzz-NK-AQI"/>
+                            <constraint firstItem="i6H-EV-kag" firstAttribute="top" secondItem="nBP-YR-tp4" secondAttribute="top" id="nhK-qE-sgE"/>
+                            <constraint firstItem="gZU-pM-0RH" firstAttribute="leading" secondItem="OrQ-1x-VmW" secondAttribute="leading" id="owM-AX-G7z"/>
+                            <constraint firstItem="PoY-yi-RbN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="238" id="qeD-lx-0zr"/>
+                            <constraint firstItem="PoY-yi-RbN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="sUU-Sh-Sa2"/>
+                            <constraint firstItem="IMu-uf-9F7" firstAttribute="leading" secondItem="wkT-81-XRe" secondAttribute="leading" id="ueP-wC-7b8"/>
+                            <constraint firstItem="cFZ-kb-Act" firstAttribute="top" secondItem="aqv-uJ-ftq" secondAttribute="top" id="xMn-w4-qRc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Divisao" destination="4wn-cZ-A9A" id="FOO-mr-nsF"/>
+                        <outlet property="Multiplicacao" destination="tQZ-01-HGY" id="CMX-N2-25V"/>
+                        <outlet property="Soma" destination="Xzx-4w-2uA" id="SM5-cI-Fz3"/>
+                        <outlet property="Subtracao" destination="IMu-uf-9F7" id="WbP-1E-xvA"/>
+                        <outlet property="Total" destination="PoY-yi-RbN" id="lCa-NF-jQH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="60.326086956521742"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="%" width="66" height="66"/>
+        <image name="+" width="66" height="66"/>
+        <image name="," width="66" height="66"/>
+        <image name="-" width="66" height="66"/>
+        <image name="-E+" width="66" height="66"/>
+        <image name="0" width="142" height="66"/>
+        <image name="1" width="66" height="66"/>
+        <image name="2" width="66" height="66"/>
+        <image name="3" width="66" height="66"/>
+        <image name="4" width="66" height="66"/>
+        <image name="5" width="66" height="66"/>
+        <image name="6" width="66" height="66"/>
+        <image name="7" width="66" height="66"/>
+        <image name="8" width="66" height="66"/>
+        <image name="9" width="66" height="66"/>
+        <image name="=" width="66" height="66"/>
+        <image name="C" width="66" height="66"/>
+        <image name="X" width="66" height="66"/>
+        <image name="÷" width="66" height="66"/>
+    </resources>
+</document>
