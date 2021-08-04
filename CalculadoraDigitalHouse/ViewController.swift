@@ -268,6 +268,7 @@ class ViewController: UIViewController {
             self.Multiplicacao.isEnabled = false
             break;
         case .Porcentagem:
+            
             break;
         }
     }
@@ -331,6 +332,7 @@ class ViewController: UIViewController {
         self.userDefaults.set(0,forKey: "primeiroValor")
         self.userDefaults.set(0,forKey: "segundoValor")
         
+        self
     }
 }
 
